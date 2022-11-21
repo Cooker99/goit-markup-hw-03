@@ -219,6 +219,11 @@ body {
 
 .section-3 {
     background-color: var(--thirdly-background-color);
+    display: flex;
+}
+
+.section-3 > .item {
+background-color: var(--box-background-color);
 }
 
 .item-color {
